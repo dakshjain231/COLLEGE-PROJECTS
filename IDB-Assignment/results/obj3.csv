@@ -1,0 +1,4 @@
+method,height,probe_hits,build_secs,build_log_reads,build_log_writes,build_phys_reads,build_phys_writes,probe_secs,probe_log_reads,probe_log_writes,probe_phys_reads,probe_phys_writes
+fileinsert,2,5000,0.001352,35386,18120,5,109,0.001702,10000,0,1767,0
+incremental,2,5000,0.003409,35386,18120,5,109,0.001607,10000,0,1767,0
+bulkload,2,5000,0.001075,76,232,1,79,0.001036,10000,0,781,0

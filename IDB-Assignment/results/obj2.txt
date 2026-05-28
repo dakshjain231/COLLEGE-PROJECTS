@@ -1,0 +1,10 @@
+Student dataset: 17813 records, 1759011 bytes total, avg 98.7 B/record
+=== Slotted-page demo ===
+Loaded 17813 student records into 453 pages, util=0.987
+Inserted synthetic record at RID(page=452,slot=23)
+Get returned: "999999;TEST_ROLL;Daksh Jain;M;B24bs1114;DBMS;DEMO;;;;;;BTECH;;;"
+After delete, SP_Get returned: -10 (expect -10=PFE_INVALIDPAGE)
+scan[0] page=0 slot=0  "949981;95302001;XXXXXXXXX;M;XXXXXXXXX;XXXXXXXXX;XXXXXXXXX;XX..."
+scan[1] page=0 slot=1  "949982;95310001;XXXXXXXXX;M;XXXXXXXXX;XXXXXXXXX;XXXXXXXXX;XX..."
+scan[2] page=0 slot=2  "949983;95305001;XXXXXXXXX;M;XXXXXXXXX;XXXXXXXXX;XXXXXXXXX;XX..."
+Sequential scan saw 17813 live records (expect 17813)
