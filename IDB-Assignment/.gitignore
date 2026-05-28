@@ -1,0 +1,7 @@
+# build artifacts only - results files are checked in as deliverables
+src/*.o
+bench/obj1_bench
+bench/obj2_bench
+bench/obj3_bench
+bench/smoke
+*.dSYM
